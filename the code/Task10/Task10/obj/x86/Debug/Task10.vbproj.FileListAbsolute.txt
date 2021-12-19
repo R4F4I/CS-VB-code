@@ -1,0 +1,8 @@
+I:\rafay\VisualBasic\Code Files\CompSci-assignments\the code\Task10\Task10\bin\Debug\Task10.exe
+I:\rafay\VisualBasic\Code Files\CompSci-assignments\the code\Task10\Task10\bin\Debug\Task10.pdb
+I:\rafay\VisualBasic\Code Files\CompSci-assignments\the code\Task10\Task10\bin\Debug\Task10.xml
+I:\rafay\VisualBasic\Code Files\CompSci-assignments\the code\Task10\Task10\obj\x86\Debug\Task10.Resources.resources
+I:\rafay\VisualBasic\Code Files\CompSci-assignments\the code\Task10\Task10\obj\x86\Debug\Task10.vbproj.GenerateResource.Cache
+I:\rafay\VisualBasic\Code Files\CompSci-assignments\the code\Task10\Task10\obj\x86\Debug\Task10.exe
+I:\rafay\VisualBasic\Code Files\CompSci-assignments\the code\Task10\Task10\obj\x86\Debug\Task10.xml
+I:\rafay\VisualBasic\Code Files\CompSci-assignments\the code\Task10\Task10\obj\x86\Debug\Task10.pdb

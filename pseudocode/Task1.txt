@@ -1,0 +1,28 @@
+ 	Declare alpha,STR,alphachoose,CHK As String
+        Declare l,i,j As Integer
+        Declare AllSTR As Boolean
+
+        alpha = "abcdefghijklmnopqrstuvwxyz"
+        STR = ""
+        l = 0
+        i = 0
+        j = 0
+        alphachoose = ""
+        CHK = ""
+        AllSTR = True
+
+        INPUT("Enter string to process: ",STR)
+        STR = LCase(STR)
+
+       
+        For i = 1 To Len(alpha)
+            If InStr(STR, (Mid(alpha, i, 1))) = 0 Then AllSTR = False
+            If AllSTR = False Then Exit For
+        Next i
+
+        
+        If AllSTR = True Then
+            OUTPUT("All letters are present")
+        Else
+            OUTPUT("All letters are NOT present.")
+        End If

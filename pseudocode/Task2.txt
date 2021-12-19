@@ -1,0 +1,14 @@
+	Declare str1, str2, n1, n2 As String
+
+        str1 = ""
+        str2 = ""
+        n1 = ""
+        n2 = ""
+
+        input("Please input first name:",str1) 
+        INPUT("Please input second name:"str2)
+
+        n1 = Left(str1, locate(str1," ")
+        n2 = Right(str2, Len(str2) - locate(str2," "))
+
+        OUTPUT ("Full new name: " & n1 & " " & n2)

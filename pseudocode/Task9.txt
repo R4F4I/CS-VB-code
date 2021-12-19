@@ -1,0 +1,28 @@
+ 	Declare str1, str2, tstr1, tstr2, reststr1, reststr2, newstr1, newstr2 As String
+        str1 = ""
+        str2 = ""
+
+        tstr1 = ""
+        tstr2 = ""
+
+        reststr1 = ""
+        reststr2 = ""
+
+        newstr1 = ""
+        newstr2 = ""
+
+        input("Please input first Word :",str1)
+
+
+        input("Please input second word :",str2)
+
+        tstr1 = Left(str1, 2)
+        tstr2 = Left(str2, 2)
+
+        reststr1 = Mid(str1, 3, Len(str1))
+        reststr2 = Mid(str2, 3, Len(str2))
+
+        newstr1 = tstr1 & reststr2
+        newstr2 = tstr2 & reststr1
+
+        Console.Write("New Word: "newstr1 & " " & newstr2)

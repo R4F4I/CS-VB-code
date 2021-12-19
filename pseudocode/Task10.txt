@@ -1,0 +1,13 @@
+ 	Declare str, chking As String
+	str=""
+        chking = ""
+
+        input("input string: ",str)
+	chking = Right(str, 3)
+        If Len(str) < 3 Then
+            Console.Write(str)
+        ElseIf chking = "ing" Then
+            output(str & "ly")
+        Else 
+	    output(str & "ing")
+        End If

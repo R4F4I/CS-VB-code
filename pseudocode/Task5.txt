@@ -1,0 +1,23 @@
+	Declare vowel, chk, str As String
+        Declare i, j, c As Integer
+
+        vowel = "aeiou"
+        i = 0
+        j = 0
+        c = 0
+        str = ""
+        chk = ""
+
+
+        INPUT("input string: ",str)
+
+        For i = 1 To Len(str)
+            chk = Mid(str, i, 1)
+            For j = 1 To Len(vowel)
+                If Mid(vowel, j, 1) = chk Then
+                    c = c + 1
+                End If
+
+            Next
+        Next
+        OUTPUT("no. of vowels is: " & c)
